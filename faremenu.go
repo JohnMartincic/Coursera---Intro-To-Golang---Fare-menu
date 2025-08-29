@@ -61,4 +61,15 @@ func main() {
 			fmt.Println(enteredCabinClassErr)
 		}
 	}
+
+	distance := CalculateDistance(float64(destinationCity.longitude)/10000,
+		float64(destinationCity.latitude)/10000,
+		float64(originCity.longitude)/10000,
+		float64(originCity.latitude)/10000)
+
+	fmt.Printf("\nDtance = %.1f km\n", distance)
+	rateFloat32 := float32(enteredCabinClass.rate) / 100
+
+	fmt.Printf("$ per km = %.2f\n", rateFloat32)
+	fmt.Printf("Total fare = $%.2f\n", rateFloat32*float32(distance))
 }
