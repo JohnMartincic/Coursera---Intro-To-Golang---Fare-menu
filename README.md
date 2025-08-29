@@ -55,4 +55,4 @@ This project serves as a practical application of fundamental Golang concepts co
 
 This project is the primary assignment for the Coursera course linked below. It is designed to reinforce beginner-level Go programming concepts in a practical, hands-on manner.
 
-* **Course Link:** [Golang for Beginners: Create a travel fare calculator](https://www.coursera.org/projects/golang-beginners-data-types-functions-packages)
+* **Course Link:** [Golang for Beginners: Data Types, Functions, and Packages](https://www.coursera.org/projects/golang-beginners-data-types-functions-packages)
